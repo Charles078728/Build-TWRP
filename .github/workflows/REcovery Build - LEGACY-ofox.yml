@@ -22,7 +22,7 @@ on:
           DEVICE_TREE_GIT:
             description: 'DEVICE_TREE_URL'
             required: true
-            default: 'https://github.com/SUFandom/A12-Exynos-recovery-devtree'
+            default: 'https://github.com/Charles078728/android_device_realme_RMX3261'
           DEVICE_TREE_BRANCH:
             description: 'DEVICE_TREE_BRANCH'
             required: true
@@ -30,15 +30,15 @@ on:
           DEVICE_PATH:
             description: 'DEVICE_PATH'
             required: true
-            default: 'device/samsung/a12s'
+            default: 'device/realme/rmx3261'
           DEVICE_NAME:
             description: 'DEVICE_NAME'
             required: true
-            default: 'a12s'
+            default: 'a11s'
           MAKEFILE_NAME:
             description: 'MAKEFILE_NAME'
             required: true
-            default: 'twrp_a12s'
+            default: 'twrp_a11s'
           BUILD_TARGET:
             description: 'BUILD_TARGET'
             required: true
